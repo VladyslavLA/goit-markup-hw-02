@@ -10,7 +10,7 @@
 
 body {
 	background-color: var(--hero-white-color);
-	font-family: Roboto, sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: var(--dark-navyblue-color);
 }
 
@@ -38,7 +38,7 @@ body {
 /* HEADER */
 
 .logo-first {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	font-size: 18px;
@@ -48,8 +48,7 @@ body {
 	color: var(--primary-iris-color);
 }
 .logo-second {
-	font-family: "Raleway";
-	font-style: normal;
+	font-family: "Raleway",sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
@@ -58,7 +57,7 @@ body {
 	color: var(--dark-navyblue-color);
 }
 .site-nav-list {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.55;
 	letter-spacing: 0.02em;
@@ -66,11 +65,11 @@ body {
 }
 .site-nav{
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color:var(--dark-navyblue-color)
+	color:var(--dark-navyblue-color);
 }
 .site-nav:hover,
 .site-nav:focus{
@@ -80,7 +79,6 @@ body {
 	color: var(--primary-iris-color);
 }
 .contacts-link {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -97,25 +95,21 @@ body {
 	background-color: var(--dark-navyblue-color);
 }
 .hero-tittle {
-	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	color: var(--hero-white-color);
 }
 .primary-button {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 	letter-spacing: 0.04em;
 	color:var(--hero-white-color);
 	width: 170px;
 	height: 51px;
-	left: 635px;
-	top: 432px;
 	background: var(--primary-iris-color);
 	border-radius: 4px;
 	cursor: pointer;
@@ -136,22 +130,19 @@ body {
 .features-list {
 }
 .features-tittle {
-font-family: inherit;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--dark-navyblue-color);
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--dark-navyblue-color);
 
 }
 .features-text {
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:var(--text-slate-color);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color:var(--text-slate-color);
 }
 
 /* What are we doing */
@@ -159,7 +150,7 @@ color:var(--text-slate-color);
 .work {
 }
 .work-tittle {
-	font-weight: 600;
+	font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -174,7 +165,7 @@ color:var(--text-slate-color);
 .team {
 }
 .team-tittle {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 36px;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
@@ -186,7 +177,7 @@ color:var(--text-slate-color);
 .list {
 }
 .employee-tittle {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -208,8 +199,7 @@ color:var(--text-slate-color);
 .link {
 }
 .ftlogo-first {
-	font-family: 'Raleway';
-	font-style: normal;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.67;
@@ -218,8 +208,7 @@ color:var(--text-slate-color);
 	color:var(--primary-iris-color)
 }
 .ftlogo-secondary {
-	font-family: 'Raleway';
-	font-style: normal;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.67;
@@ -244,7 +233,7 @@ color:var(--text-slate-color);
 }
 .filters-btn {
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--primary-iris-color);
 	cursor: pointer;
 	display: flex;
@@ -261,7 +250,7 @@ color:var(--text-slate-color);
 .filters-btn:hover,
 .filters-btn:focus{
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
@@ -278,15 +267,15 @@ color:var(--text-slate-color);
 .project-list {
 }
 .projeckt-tittle {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--dark-navyblue-color);
 }
 .about {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:var(--text-slate-color);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color:var(--text-slate-color);
 }
